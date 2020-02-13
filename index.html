@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+          <span class="moves">0</span> Moves
+          <div class="timer-panel">
+            <i class="fa fa-clock-o"></i>
+            <span class="timer">0</span> s
+          </div>
+
+          <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+
+        <ul class="deck">
+
+        </ul>
+    </div>
+    <div class="win-modal">
+      <i class="fa fa-trophy fa-2x"></i>
+      <h2>Congratulations! You Won!</h2>
+      <p class="game-stats">With X moves and 1 Stars.<p>
+      <p>Wooooooo!</p>
+      <button id="playagain">Play again!</button>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
