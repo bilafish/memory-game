@@ -11,8 +11,8 @@ Memory Game is a card matching game where players have to flip over cards 2 at a
 - [Development](#development)
 
 ## Instructions
-
-* To play, just open [index.html](./index.html) in your browser.
+* Demo version: [Play Now!](https://memory-game-jzy.netlify.com/)
+* To play, just open [index.html](./index.html) from the cloned repo in your browser.
 
 ## Game Rules
 
